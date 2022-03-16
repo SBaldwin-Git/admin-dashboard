@@ -1,5 +1,33 @@
 * {
     font-family: 'Bebas Neue', cursive;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    display: grid;
+
+}
+
+.sidebar{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.dashboard-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dashboard-logo img{
+    height: 5rem;
+    width: auto;
+}
+
+.dashboard-logo h1{
+    text-align: left;
 }
 
 footer {
