@@ -1,4 +1,4 @@
-:point_right: Live demo: https://sbaldwin-git.github.io/Cafe-Website/
+:point_right: Live demo: https://sbaldwin-git.github.io/admin-dashboard/
 
 # Admin-Dashboard
 
