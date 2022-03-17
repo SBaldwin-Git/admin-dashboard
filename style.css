@@ -75,11 +75,13 @@ footer {
 
 header {
     display: grid;
+    position: relative;
     grid-template-columns: 2fr 1fr;
     grid-row: 1fr 1fr;
     align-items: flex-start;
     padding: 1.5rem 0 0.5rem 2rem;
     row-gap: 1rem;
+    box-shadow: 4px 3px 8px 1px #b4b2b2;
 }
 
 .search-bar {
@@ -156,7 +158,6 @@ header {
 }
 
 main{
-    
     grid-row: 2 / 4;
     height: 100%;
     width: 100%;
