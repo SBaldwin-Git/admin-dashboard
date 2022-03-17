@@ -68,3 +68,17 @@ footer {
     bottom: 5px;
     left: 30px;
 }
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-bar input{
+    background-color: rgb(226, 225, 225);
+    border: none;
+    border-radius: 10px;
+    height: 1.5rem;
+    width: 100%;
+}
