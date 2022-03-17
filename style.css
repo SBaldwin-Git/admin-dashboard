@@ -73,10 +73,10 @@ footer {
     left: 30px;
 }
 
-header{
+header {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    align-items:flex-start;
+    align-items: flex-start;
     padding-top: 1.5rem;
 }
 
@@ -84,7 +84,7 @@ header{
     display: flex;
     align-items: center;
     gap: 5px;
-    padding-left:2rem;
+    padding-left: 2rem;
 }
 
 .search-bar input {
@@ -102,7 +102,7 @@ header{
     outline: none;
 }
 
-.user-profile{
+.user-profile {
     position: relative;
     display: flex;
     justify-content: center;
@@ -111,6 +111,22 @@ header{
     gap: 30px;
 }
 
-.user-profile p:hover, .user-profile img:hover {
+.user-profile p:hover,
+.user-profile img:hover {
     cursor: pointer;
+}
+
+.file-options {
+    display: flex;
+
+    gap: 0.5rem;
+}
+
+.file-options button {
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    border-radius: 20px;
+    width: 8rem;
+    font-size: 1.5rem;
 }
