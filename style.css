@@ -5,7 +5,9 @@
     margin: 0;
 }
 
-html, body, .container{
+html,
+body,
+.container {
     height: 100%;
 }
 
@@ -15,17 +17,17 @@ html, body, .container{
     grid-template-rows: 1fr 4fr 0.3fr;
 }
 
-.sidebar{
+.sidebar {
     display: flex;
     flex-flow: column;
     gap: 3rem;
-    background-color: deepskyblue;
+    background-color: rgb(3, 137, 226);
     color: white;
-    padding:1rem 3rem 3rem 3rem;
+    padding: 1rem 3rem 3rem 3rem;
     grid-row: 1 / 4;
 }
 
-.sidebar ul li{
+.sidebar ul li {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
@@ -37,23 +39,25 @@ html, body, .container{
     cursor: pointer;
 }
 
-.dashboard-logo{
+.dashboard-logo {
+    position: relative;
+    left: -2rem;
     font-size: 1rem;
-     display: flex;
-     align-items: center;
-     gap: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
-.dashboard-logo img{
+.dashboard-logo img {
     height: 5rem;
     width: auto;
 }
 
-.dashboard-logo h1{
+.dashboard-logo h1 {
     text-align: left;
 }
 
-main{
+main {
     grid-column: 2 / 3;
 }
 
@@ -69,13 +73,13 @@ footer {
     left: 30px;
 }
 
-.search-bar{
+.search-bar {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.search-bar input{
+.search-bar input {
     background-color: rgb(226, 225, 225);
     border: none;
     border-radius: 10px;
