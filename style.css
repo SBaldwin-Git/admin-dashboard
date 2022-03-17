@@ -21,7 +21,7 @@ body,
     display: flex;
     flex-flow: column;
     gap: 3rem;
-    background-color: rgb(3, 137, 226);
+    background-color: #2196F3;
     color: white;
     padding: 1rem 3rem 3rem 3rem;
     grid-row: 1 / 4;
@@ -73,16 +73,45 @@ footer {
     left: 30px;
 }
 
+header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items:flex-start;
+    padding-top: 1.5rem;
+}
+
 .search-bar {
     display: flex;
     align-items: center;
     gap: 5px;
+    padding-left:2rem;
 }
 
 .search-bar input {
     background-color: rgb(226, 225, 225);
     border: none;
-    border-radius: 10px;
-    height: 1.5rem;
+    border-radius: 15px;
+    height: 2.2rem;
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
     width: 100%;
+    padding-left: 10px;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.user-profile{
+    position: relative;
+    left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 30px;
+}
+
+.user-profile p:hover, .user-profile img:hover {
+    cursor: pointer;
 }
