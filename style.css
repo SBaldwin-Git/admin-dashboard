@@ -78,9 +78,8 @@ header {
     grid-template-columns: 2fr 1fr;
     grid-row: 1fr 1fr;
     align-items: flex-start;
-    padding-top: 1.5rem;
-    padding-left: 2rem;
-    row-gap: 1.5rem;
+    padding: 1.5rem 0 0.5rem 2rem;
+    row-gap: 1rem;
 }
 
 .search-bar {
@@ -154,4 +153,12 @@ header {
     width: 8rem;
     height: 3rem;
     font-size: 1.5rem;
+}
+
+main{
+    
+    grid-row: 2 / 4;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(235, 232, 232);
 }
