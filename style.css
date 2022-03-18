@@ -200,8 +200,13 @@ main {
         font-family: Verdana,Geneva,Tahoma,sans-serif;
 }
 
-.card-button-container{
+.project-card p{
+    height: 100%;
+}
 
+.card-button-container{
+    justify-self: flex-end;
+    align-self: flex-end;
 }
 
 .announcement-container {}
