@@ -205,6 +205,8 @@ main {
 }
 
 .card-button-container{
+    display: flex;
+    gap: 0.5rem;
     justify-self: flex-end;
     align-self: flex-end;
 }
