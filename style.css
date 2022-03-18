@@ -131,6 +131,7 @@ header {
     grid-row: 1 / 3;
     height: 90px;
     width: auto;
+    padding-right: 0.5rem;
 }
 
 .user-welcome p {
@@ -158,8 +159,23 @@ header {
 }
 
 main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-row: 2 / 4;
     height: 100%;
     width: 100%;
     background-color: rgb(235, 232, 232);
+}
+
+.projects-container{
+
+}
+
+.announcement-container{
+
+}
+
+.trending-container{
+    
 }
